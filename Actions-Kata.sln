@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionsKataExample", "ActionsKataExample\ActionsKataExample.csproj", "{6DBA8F7E-3ABC-4582-9468-B5407510121D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionsKataExample", "ActionsKataExample\ActionsKataExample.csproj", "{6DBA8F7E-3ABC-4582-9468-B5407510121D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionsKataExample.Tests", "ActionsKataExample.Tests\ActionsKataExample.Tests.csproj", "{E7544588-B228-403B-82F4-3959AA2C17F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionsKataExample.Tests", "ActionsKataExample.Tests\ActionsKataExample.Tests.csproj", "{E7544588-B228-403B-82F4-3959AA2C17F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{182248DC-9776-4366-A598-494196808354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6B26A4D2-8F3E-41EE-940E-AF7D83ADB388}"
+	ProjectSection(SolutionItems) = preProject
+		dotnet.yml = dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B26A4D2-8F3E-41EE-940E-AF7D83ADB388} = {182248DC-9776-4366-A598-494196808354}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E5122B8-9697-488A-8F0A-2B88D1F3156B}
