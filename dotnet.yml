@@ -13,3 +13,26 @@ jobs:
     steps:
       - name: Welcome message
         run: echo "Welcome!"
+job:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+      - name Build message
+        run: echo "Build!"
+
+job:
+  test:
+    runs-on: windows-latest
+    
+    steps:
+      - name Test message
+        run: echo "Test!"
+
+job:
+  publish:
+    runs-on: windows-latest
+    
+    steps:
+      - name Publish message
+        run: echo "Publish!"
