@@ -1,0 +1,11 @@
+name: .NET
+
+on: [pull_request]
+
+jobs:
+  welcome:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Welcome message
+        run: echo "Welcome!"
